@@ -1,0 +1,95 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 4rem;
+}
+.github-div {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.github-div:hover {
+  color: white;
+  background-color: black;
+  font-weight: bolder;
+}
+.resume-div {
+  background-color: lightslategray;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-div:hover {
+  color: black;
+  background-color: white;
+  font-weight: bolder;
+}
+
+.insta-div {
+  color: white;
+
+  background: #f09433;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.insta-div:hover {
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.205) !important;
+}
+.whatsapp-div {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1ebea5;
+}
+.whatsapp-div:hover {
+  color: white;
+  font-weight: bolder;
+  background-color: 01e675;
+}
+
+.row {
+  height: 46vh;
+}
+nav {
+  height: 8vh;
+}
